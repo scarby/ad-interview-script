@@ -1,0 +1,149 @@
+{
+  "databases": [
+    {
+      "name": "interview-db-0",
+      "identifier": "9a4ea275-a61e-47d7-b7f0-355876a6d384",
+      "application": "db-owner-0",
+      "status": "available",
+      "storage_type": "gp2",
+      "storage_size": 10,
+      "storage_used": null,
+      "parameter_groups": [
+        {
+          "name": "55bf0917-2d05-4fa4-97c8-219b68c8bf9a",
+          "family": "postgres12",
+          "description": null
+        }
+      ],
+      "is_replica": false,
+      "instance_type": "db.t3.medium",
+      "engine": "postgres",
+      "engine_version": "12.7",
+      "publicly_accessible": false,
+      "public_endpoint": null,
+      "private_endpoint": "interview-db-0.zy923vflh983.us-west-2.rds.amazonaws.com",
+      "multi_az": true,
+      "most_recent_snapshot": {
+        "name": "de46c66b-8747-461d-9c5e-a1aececce923",
+        "point_in_time": "2021-10-25T21:17:58+00:00"
+      },
+      "tags": {
+        "region": "us-west-2",
+        "interview": "true",
+        "app_name": "db-owner-0",
+        "environment": "dev",
+        "instance_name": "interview-db-0",
+        "managed": "infra-as-code",
+        "Name": "interview-db-0"
+      }
+    },
+    {
+      "name": "interview-db-0-replica",
+      "identifier": "d56034a2-a210-49e3-b734-1583e12eabc7",
+      "application": "db-owner-0",
+      "status": "available",
+      "storage_type": "gp2",
+      "storage_size": 10,
+      "storage_used": 2.965799713134766,
+      "parameter_groups": [
+        {
+          "name": "55bf0917-2d05-4fa4-97c8-219b68c8bf9a",
+          "family": "postgres12",
+          "description": null
+        }
+      ],
+      "is_replica": true,
+      "instance_type": "db.t3.medium",
+      "engine": "postgres",
+      "engine_version": "12.7",
+      "publicly_accessible": false,
+      "public_endpoint": null,
+      "private_endpoint": "interview-db-0-replica.zy923vflh983.us-west-2.rds.amazonaws.com",
+      "multi_az": true,
+      "most_recent_snapshot": null,
+      "tags": {
+        "region": "us-west-2",
+        "interview": "true",
+        "app_name": "db-owner-0",
+        "environment": "dev",
+        "instance_name": "interview-db-0-replica",
+        "managed": "infra-as-code",
+        "Name": "interview-db-0-replica"
+      }
+    },
+    {
+      "name": "interview-db-1",
+      "identifier": "7418f754-a73f-44ad-b0b4-37974b867b41",
+      "application": "db-owner-1",
+      "status": "available",
+      "storage_type": "gp2",
+      "storage_size": 10,
+      "storage_used": 2.635681915283203,
+      "parameter_groups": [
+        {
+          "name": "d7d8c498-43b4-46ef-b9cd-e521cacdf73b",
+          "family": "postgres12",
+          "description": null
+        }
+      ],
+      "is_replica": false,
+      "instance_type": "db.t3.micro",
+      "engine": "postgres",
+      "engine_version": "12.7",
+      "publicly_accessible": false,
+      "public_endpoint": null,
+      "private_endpoint": "interview-db-1.zy923vflh983.us-west-2.rds.amazonaws.com",
+      "multi_az": true,
+      "most_recent_snapshot": {
+        "name": "f7759948-1bf4-47d2-a888-e94d3dffb2de",
+        "point_in_time": "2021-10-25T21:15:12+00:00"
+      },
+      "tags": {
+        "region": "us-west-2",
+        "interview": "true",
+        "app_name": "db-owner-1",
+        "environment": "dev",
+        "instance_name": "interview-db-1",
+        "managed": "infra-as-code",
+        "Name": "interview-db-1"
+      }
+    },
+    {
+      "name": "interview-db-2",
+      "identifier": "748cc695-933c-461e-8c2a-4cef5bc06699",
+      "application": "db-owner-2",
+      "status": "available",
+      "storage_type": "gp2",
+      "storage_size": 10,
+      "storage_used": 2.6908287048339847,
+      "parameter_groups": [
+        {
+          "name": "fa9454d0-c150-46ba-9205-32bd7fe0a458",
+          "family": "postgres12",
+          "description": null
+        }
+      ],
+      "is_replica": false,
+      "instance_type": "db.t3.medium",
+      "engine": "postgres",
+      "engine_version": "12.7",
+      "publicly_accessible": false,
+      "public_endpoint": null,
+      "private_endpoint": "interview-db-2.zy923vflh983.us-west-2.rds.amazonaws.com",
+      "multi_az": true,
+      "most_recent_snapshot": {
+        "name": "fc62c66f-0a20-4b6f-ae5a-11b869ceff28",
+        "point_in_time": "2021-10-25T21:17:15+00:00"
+      },
+      "tags": {
+        "region": "us-west-2",
+        "interview": "true",
+        "app_name": "db-owner-2",
+        "environment": "dev",
+        "instance_name": "interview-db-2",
+        "managed": "infra-as-code",
+        "Name": "interview-db-2"
+      }
+    }
+  ]
+}
